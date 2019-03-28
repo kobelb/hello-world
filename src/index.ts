@@ -1,3 +1,3 @@
-const { SecretClass } = require('secret-repo');
+import { SecretClass } from 'secret-repo';
 const instance = new SecretClass();
 console.log(instance.dude());
